@@ -6,10 +6,10 @@ class Card
         @face_up = false
     end
 
-    def reveal
-        @face_up = true
-        # return @face_value
-    end
+    # def reveal
+    #     @face_up = true
+    #     # return @face_value
+    # end
 
     def to_s
         if @face_up == true
