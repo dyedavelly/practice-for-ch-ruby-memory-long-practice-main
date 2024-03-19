@@ -7,7 +7,16 @@ class Card
     end
 
     def reveal
-        return @face_value
+        @face_up = true
+        # return @face_value
+    end
+
+    def to_s
+        if @face_up == true
+            @face_value
+        else 
+            return ' '
+        end
     end
 
     def hide
