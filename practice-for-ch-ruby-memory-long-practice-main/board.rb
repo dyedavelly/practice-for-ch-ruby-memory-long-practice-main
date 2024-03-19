@@ -31,7 +31,7 @@ class Board
         @cards.each_with_index do |subarray, row|
             print row
             print " "
-            p subarray.join(" ")
+            puts subarray.join(" ")
         end
     end
 end
